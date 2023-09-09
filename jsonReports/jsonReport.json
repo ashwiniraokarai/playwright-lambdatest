@@ -1,0 +1,113 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.25.1",
+    "workers": 10,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest",
+    "_configDir": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest",
+    "_testGroupsCount": 1,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "pom-tests/add-to-cart.test.ts",
+      "file": "pom-tests/add-to-cart.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "User registration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2145,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest/test-results/pom-tests-add-to-cart-User-registration/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/ashkarai/Desktop/ash_repos/playwright-lambdatest/test-results/pom-tests-add-to-cart-User-registration/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "pom-tests/add-to-cart.test.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
